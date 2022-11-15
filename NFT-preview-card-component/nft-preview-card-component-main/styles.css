@@ -1,0 +1,146 @@
+body{
+    display: inline-block;
+    height: 1000px;
+    background-color: hsl(217, 54%, 11%);
+    width:1440px;
+    top: 90px;
+    position: relative;
+    font-family: 'Outfit', sans-serif;
+
+}
+
+
+.product{
+    top:100px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    border: 15px solid hsl(217, 60%, 6%);
+    border-radius: 35px; ;
+    box-shadow: 0 0 10px 10px rgba(0.5, 0.5, 0.5, 0.5);
+    width: 350px;
+    height: 625px;
+    padding: 30px;
+    display: grid;
+    background-color: hsl(216, 50%, 16%);
+}
+
+.product-text{
+    margin: 0 10px;
+    color: hsl(215, 51%, 70%)
+}
+
+.product-img img{
+    width: 325px;
+    height: 325px;
+    margin: auto;
+}
+
+.equilibrium{
+    display: flex;
+    position: relative;  
+    border-radius: 15px;
+}
+
+.view{
+    position: absolute;
+    display: flex;
+    top:-585px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 15px;
+    opacity: 0.3;
+}
+
+.view:hover {
+    opacity: 0.5 !important;
+    background-color: hsl(178, 100%, 50%) ;
+}
+
+.product-name{
+    font-size: 14,9px;
+    color: hsl(178, 100%, 50%);
+}
+
+.product-description{
+    font-size: 13,9px;
+    display: flex;
+}
+
+.price{
+    font-weight: bold;
+    font-size: 16px;
+    display: inline-block;
+    margin-left: 0px;
+    position: relative;
+    color: hsl(178, 100%, 50%);
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+p{
+    display: inline;
+    margin-left: 5px;
+    align-items: center;
+
+}
+
+.time-left {
+    font-size: 13,9px;
+    display: inline-block;
+    margin-right: 0px;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+
+    align-items: center;
+
+}
+
+.product-info{
+    justify-content: space-between;
+    display: flex;
+}
+
+.product-number::placeholder{
+
+}
+
+.authorship{
+    border-top: 1px solid hsl(0, 50%, 100%);
+    padding-top: 10px;
+    font-size: 13,9px;
+    justify-content: space;
+    display: flex;
+}
+
+.name-author{
+    color: hsl(178, 100%, 50%);
+}
+
+.avatar{
+    display: inline-flex;
+    width: 50px;
+    border: 2px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+}
+
+.authorship-text{
+    margin-left: 10px;
+    
+}
+
+.ethereum{
+    width: 10px;
+}
+
+
+
+
+
+
