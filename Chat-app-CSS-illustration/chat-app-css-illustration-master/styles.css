@@ -1,0 +1,240 @@
+html{
+    background-color: hsl(270, 20%, 96%);
+}
+
+.container{
+    display: flex;
+    font-family: 'Rubik', sans-serif;
+}
+
+.screen-example{
+    width: 45%;
+    margin: 100px;
+    border:10px solid hsl(270, 63%, 97%);
+    position: relative;
+    border-radius: 25px;
+    z-index: 100;
+    overflow: hidden;
+    font-size: 16px;
+    box-shadow: 0 0 10px 0 hsl(240, 2%, 50%);
+    min-width: 400px;
+}
+
+.blank-space{
+    border-radius: 15px;
+    z-index: 200;
+    background-color: hsl(270, 63%, 97%);
+    position:absolute;
+    top: -20px;
+    width: 250px;
+    height: 40px;
+    display: flex;
+    
+}
+
+.app-description{
+    width: 70%;
+    margin: 200px;
+    color:hsl(270, 7%, 64%)
+}
+
+
+.avatar{
+    display: inline-block;
+    width: 50px;
+    border: 4px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-left: 20px;
+
+}
+
+.receiver{
+    border-top: 1px solid hsl(0, 50%, 100%);
+    padding-top: 25px;
+    padding-bottom: 10px;
+    display: flex;
+    z-index: 0;
+    color:hsl(210, 22%, 96%);
+}
+
+.receiver-info{
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.name{
+        font-size: 18px;
+        font-weight: bold;
+        display: flex;
+        top: 0px;
+        position: relative;
+        margin: 0;
+    }
+
+    .condition{
+        font-size: 14px;
+        display: flex;
+        bottom:0;
+        position: relative;
+        margin: 0;
+        color:hsl(206, 6%, 79%)
+    }
+    
+.screen-nav{
+    background-image: linear-gradient(to right, hsl(293, 100%, 63%) , hsl(264, 100%, 61%));
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    padding: 0 15px;
+    justify-content: space-around;
+}
+
+.option-img{
+    width: 20px;
+    height: 20px;
+    margin: auto 0
+}
+
+.arrow-img{
+    width: 15px;
+    height: 15px;
+    margin: auto 0;
+}
+ /*--------------------------------------------------------------------------------------------------*/
+
+.chat{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    background-color: hsl(0, 9%, 93%);
+}
+
+.chat > div{
+    max-width: 75%;
+    text-align: left;
+    position: relative;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.dog-walker{
+    object-position: right;
+    margin: 0 auto 0 0;
+    color: hsl(276, 55%, 52%);
+    background-color: hsl(300, 14%, 90%);
+    border: 0 !important;
+}
+.dog-owner{
+    object-position: left;
+    margin:0 0 0 auto;
+    color: hsl(271, 15%, 43%);
+    box-shadow: 0 0 10px 0px hsl(240, 2%, 71%);
+}
+
+.dog-owner-img{
+    border: none !important;
+    margin:0 0 0 auto;
+    object-position: left;
+    max-width: 100%;
+    flex-direction: row;
+    display: flex;
+}
+
+.dog-img{
+    flex-direction: row;
+    width: 65px;
+    height: 65px;
+    margin: 5px;
+    border-radius: 13px;
+}
+
+.work-offer-1, .work-offer-2{
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    background-image: linear-gradient(to right, hsl(293, 100%, 63%) , hsl(264, 100%, 61%));
+    color: hsl(0, 0%, 100%);
+}
+
+.price{
+    font-weight: bolder;
+    font-size: 20px;
+    margin: 10px auto ;
+}
+
+.time{
+    margin:auto 0;
+}
+
+.display-flex{
+    display: flex;
+}
+
+.input-chat{
+    display: flex;
+    justify-content: center;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 30px;
+    margin: 10px;
+    box-shadow: 0 0 10px 0px hsl(240, 2%, 71%);
+}
+
+
+.type-input{
+    width: 95%;
+    height: 30px;
+    opacity: 0.5;
+    border: 0;
+    outline: none;
+    margin: auto 10px
+}
+
+
+
+.send-msg{
+    width: 40px;
+    height: auto;
+    
+}
+
+.app-description{
+    margin: auto 100px;
+    color: hsl(271, 15%, 43%);
+}
+
+.placeholder{
+    color:hsl(206, 6%, 79%)
+}
+
+
+
+@media screen and (max-width:1000px){
+
+    .container{
+        flex-direction: column;
+        
+    }
+
+    .screen-example{
+        margin: 50px auto ;
+    }
+
+    .app-description{
+        text-align: center;
+    }
+    
+    .app-description > p{
+        color: hsl(270, 7%, 38%);
+        line-height: 2;
+    }
+}
+
+
+
+
+
+
+
